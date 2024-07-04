@@ -3,11 +3,6 @@
     src: url("https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/Sahel.woff2");
 }
 
-@media only screen and (max-width: 600px) {
-    .container{
-        width: 200px;
-    }
-  }
 
 *{
     margin: 0;
@@ -62,3 +57,57 @@ body{
 i{
     font-size: 20px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 275px;
+        height: 400px;
+    }
+
+    .card{
+        width: 100%;
+        height:137px;
+        right: 15px;
+        top: -15px;
+        position: relative;
+    }
+
+    .card img{
+        width: 50%;
+    }
+
+    .card p{
+        font-size: xx-small;
+        position: absolute;
+        right: 122px;
+    }
+    
+    .phone{
+        position: absolute;
+        left: 25px;
+        top: 25px;
+    }
+
+    .gmail{
+        position: absolute;
+        left: 25px;
+        top: 60px;
+    }
+
+    .mastodon{
+        position: absolute;
+        left: 25px;
+        top: 95px;
+    }
+
+    i{
+        font-size: medium;
+    }
+
+    .bio{
+        width: 250px;
+        font-size: small;
+        top: 150px;
+    }
+  }
