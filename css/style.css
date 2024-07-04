@@ -1,0 +1,64 @@
+@font-face{
+    font-family: "Sahel";
+    src: url("https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/Sahel.woff2");
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 200px;
+    }
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Sahel";
+    background-color: rgb(107, 137, 237);
+}
+
+.container{
+    background-color: rgb(77, 85, 198);
+    width: 600px;
+    height: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 40px rgb(40, 40, 40);
+    border-radius: 10px 25px 10px 25px;
+    position: relative;
+}
+
+.card{
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    box-shadow: 0 0 40px rgb(40, 40, 40);
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card p{
+    padding-right: 18px;
+    margin: 3px;
+}
+
+.bio{
+    width: 300px;
+    position: absolute;
+    left: 15px;
+    height: 300px;
+    text-align: justify;
+    top: 32px;
+}
+
+i{
+    font-size: 20px;
+}
